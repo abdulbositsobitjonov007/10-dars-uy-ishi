@@ -1,0 +1,231 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Segoe UI'; 
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+header{
+    padding-top:15px ;
+    padding-bottom: 15px;
+    background-color: #FFFFFF;
+}
+.nawbar{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.logo{
+   vertical-align: middle;
+  
+}
+ul{
+   display: flex;  
+   gap: 50px;
+   list-style: none;
+
+ 
+}
+a{
+ text-decoration: none; 
+ color: black;  
+}
+.logo-title{
+     font-size: 26px;
+}
+.menubox{
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #D9D9D9;
+    border-radius: 5px ;
+
+}
+select{
+ width: 55px;   
+ height: 22px;    
+ border: 2px solid #D9D9D9;
+border-radius: 5px;
+}
+
+#hero{
+  background-color: #F4F8FA; 
+  padding-top: 30px;
+  height: 1000px; 
+}
+.heading{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.title{
+    padding-bottom: 17px;
+    font-size: 29px;
+}
+
+.card1{
+    width: 496px;
+    height: 800px;
+    background-color:#FFFFFF ;
+justify-items: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px lightgray;
+}
+.link{
+    text-decoration: underline;
+    color: #01BAB3;
+}
+.hero-form{
+    display: flex;
+    gap:16px;
+    padding-top: 60px;
+}
+
+.input-box{
+    width: 200px;
+    height: 48px;
+    border:2px solid #D9D9D9 ;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+
+.title-input{
+    display: flex;
+    flex-direction: column;
+    padding-bottom:8px ;
+}
+
+.hero-form1{
+    padding-top:25px ;
+}
+
+.input-box1{
+    width: 416px;
+    height: 48px;
+border: 2px solid #D9D9D9;
+border-radius: 8px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.gender-group{
+    display: flex;
+    gap: 16px; 
+}
+
+.gender-option{
+display: flex;
+width: 200px;
+height: 48px;
+}
+
+.input-box2{
+    width: 200px;
+        height: 48px;
+        border: 2px solid #D9D9D9;
+        border-radius: 8px;
+     
+     cursor: pointer;
+     
+    }
+
+    .title-input1{
+padding: 60px;
+
+
+    }
+    .radio-input{
+     cursor: pointer;
+       
+    }
+.info{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.hero-btn{
+    width: 416px;
+  height: 48px; 
+  margin-top: 20px;
+  color:white ; 
+background-color:#01BAB3 ;
+border-radius: 4px;
+outline-style: none;
+cursor: pointer;
+}
+
+.footer{
+   padding-top: 120px;
+    justify-items: center;
+}
+.tel-content{
+    display: flex;
+    border: 2px solid #D9D9D9;
+    width: 414.54px;
+    height: 45.28px;
+    border-radius: 6px;
+}
+.tel-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
+
+.tel{
+    border: none;
+    outline: none;
+    padding-left: 10PX;
+    font-size: 16px;
+    border-left: 2px solid #D9D9D9;
+}
+
+.title-input2{
+    display: flex;
+        flex-direction: column;
+        padding-bottom: 8px;
+       padding-right: 364px;
+padding-top: 25px;
+}
+.select1{
+    width: 200px;
+    height: 48px;
+    padding-left: 10px;
+
+}
+.hero-form2{
+    display: flex;
+    gap: 16px;
+    padding-top: 25px;
+}
+
+.icon-img{
+    width: 10px;
+    display: flex;
+}
+.register{
+padding-top: 50px;
+
+}
+.footer1{
+justify-items: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.foot{
+    color: #01BAB3;
+}
+.register1{
+    color: white;
+   
+}
+.card2 {
+    width: 496px;
+    height: 531px;
+    background-color: #FFFFFF;
+    justify-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
